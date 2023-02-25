@@ -1,0 +1,90 @@
+
+header{
+    width: 100%;
+    height: 300px;
+}
+article{
+    width: 70%;
+    height: 500px;
+    float: left;
+    background-color: white;
+    box-shadow: 0 0 5px gray;
+    margin: 5px;
+    float: left;
+}
+article .content{
+min-height: 500px;
+max-height: 300px;
+overflow: auto;
+}
+aside{
+    width: 28%;
+    height: 500px;
+    background-color: white;
+    float: left;
+}
+footer{
+    border-top: 5px double orangered;
+    clear: both;
+    width: 100%;
+    height: 250px;
+    background-color: greenyellow;
+    line-height: 250px;
+    text-align: center;
+    font-size: 90px;
+    font-variant: small-caps;
+}
+header>img{
+    width: 1503px;
+    height: 300px;
+}
+header .top-right{
+    width: 350px;
+    height: 50px;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-bottom-left-radius: 30px;
+    text-align: center;
+    font-variant: small-caps;
+}
+header .top-right a{
+text-decoration: none;
+color: aliceblue;
+line-height: 40px;
+padding: 10px;
+}
+header .top-right a:hover{
+    text-decoration: none;
+    font-weight: bold;
+}
+.menu{
+        background-color: red;
+        text-align: center;
+        font-variant: small-caps;
+    }
+.menu >ul{
+        background-color: orangered;
+        list-style-type: none;
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+.menu >ul >li{
+        display: inline-block;
+        line-height: 50px;
+        width: 18%;
+    }
+.menu a{
+        text-emphasis: none;
+        color: white;
+        display: block;
+    }
+.menu a:hover{
+        background-color: orange;
+        color: red;
+        border-radius: 10px;
+    }
+    
